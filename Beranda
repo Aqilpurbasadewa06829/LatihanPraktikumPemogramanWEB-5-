@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beranda</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Beranda.css" rel="stylesheet">
+    <link rel="stylesheet" href="unipin.jpg">
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Menu Kiri -->
+        <div class="col-md-3">
+            <h3>Aqil Purba S - 06829</h3>
+            <ul class="list-group">
+                <a href="Beranda.html" class="list-group-item">Beranda</a>
+                <a href="Jadwal Kuliah.html" class="list-group-item">Jadwal Kuliah</a>
+                <a href="Biodata.html" class="list-group-item">Biodata</a>
+            </ul>
+        </div>
+
+        <!-- Konten Beranda -->
+        <div class="col-md-9">
+            <h1>Beranda</h1>
+            <section class="mt-4">
+                <h2>Sejarah Singkat Manchester United</h2>
+                <p>UniPin (Universal Pin) adalah sebuah platform penyedia konten digital yang didirikan pada tahun 2009.[1] UniPin tersedia di lebih dari 32 negara dan 21.400.000 pengguna aktif yang terus bertambah setiap bulannya.  
+                    Jumlah transaksi harian tertinggi UniPin mencapai lebih dari 3.100.000 dan terhubung dengan lebih dari 2.400.000 jaringan distribusi.[2] Setelah sukses membangun nama di pasar domestik, UniPin berekspansi untuk menyediakan layanannya dengan menggandeng lebih dari 500 mitra di seluruh dunia
+                    Sebagai penyedia konten digital terdepan, UniPin menawarkan kemudahan dalam memenuhi beragam kebutuhan game online dan produk digital di seluruh dunia dengan berbagai macam channel pembayaran. Dengan UniPin, penerbit game dan perusahaan konten digital yang ingin mengembangkan bisnis tak perlu lagi repot-repot menjalin kerja sama dengan channel pembayaran yang tersedia di setiap negara, karena mereka sudah dapat langsung terhubung dengan semua channel pembayaran tersebut melalui UniPin.                    
+                    Untuk para pemain game dan pengguna konten digital, UniPin mempermudah pembelian voucher dan pembayaran isi ulang game melalui  berbagai metode pembayaran yang disediakan, seperti transfer bank, pulsa, e-wallet, e-commerce, jaringan mini market dan kartu kredit.
+                     </p>
+            </section>
+            <img src="unipin.jpg">
+            <section class="mt-4">
+                <h2>Mitra </h2>
+                <p>Pada Juli 2011, UniPin, yang berada di bawah naungan PT 24 Jam Online, mengumumkan terjalinnya kerja sama dengan penyedia layanan minimarket terkemuka, Indomaret. Kerja sama ini menyediakan voucher game online di seluruh gerai Indomaret yang tersebar di seluruh Indonesia.</p>
+                <p>Pada tahun yang sama, UniPin juga menjalin kolaborasi dengan Moonton, penerbit game ''Mobile Legends: Bang Bang'' atau MLBB. Kolaborasi ini bertujuan untuk membantu Moonton memasuki pasar Indonesia dan meningkatkan ''brand awareness''.</p>
+                <p>Pada Mei 2018, UniPin bermitra dengan TNC Philippine Holdings Inc. dengan mengadakan konferensi pers di High Ground Cafe, Manila, untuk memperkokoh kehadirannya di pasar game Asia tenggara dengan merambah ke Filipina.  </p>
+                <p>Pada tahun 2019, UniPin secara resmi menggandeng berbagai platform e-commerce terkemuka di Indonesia seperti Tokopedia, Lazada, Blibli, dan lain-lain.   </p>
+                <p>Pada tahun yang sama, UniPin menjalin kerja sama eksklusif dengan jaringan minimarket terkemuka di Malaysia, KK Super Mart.</p>
+                <p>Pada awal tahun 2020, Ashadi Ang selaku Co-Founder dan CEO UniPin resmi dilantik sebagai anggota PBESI (Pengurus Besar Esports Indonesia) dibawah naungan KONI (Komite Olahraga Nasional Indonesia).</p>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!-- Menu -->
+<div class="container mt-4">
+    <a href="Beranda.html" class="btn btn-primary mr-2">Beranda</a>
+    <a href="Jadwal Kuliah.html" class="btn btn-primary mr-2">Jadwal Kuliah</a>
+    <a href="Biodata.html" class="btn btn-primary">Biodata</a>
+</div>
+
+</body>
+</html>
