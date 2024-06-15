@@ -2,7 +2,7 @@
     include("dbconnect.php");
 
     $id = $_GET['urut'];
-    $delete = $k->query("DELETE FROM users WHERE id=".$id);
+    $delete = $k->query("DELETE FROM mhs WHERE id=".$id);
     if($delete)
     {
         header("Location: main.php");

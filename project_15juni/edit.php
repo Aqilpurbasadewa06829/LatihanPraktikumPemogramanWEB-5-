@@ -1,4 +1,5 @@
 <?php
+   
 session_start();
 if($_SESSION['is_logged_in']!=TRUE)
 {
@@ -6,7 +7,7 @@ if($_SESSION['is_logged_in']!=TRUE)
 }
     include('dbconnect.php');
     $id = $_GET['urut'];
-    $data = $k -> query("SELECT * FROM users WHERE id = '".$id."'");
+    $data = $k -> query("SELECT * FROM mhs WHERE id = '".$id."'");
     if($data -> num_rows == 1)
     {
         $datauser = $data -> fetch_assoc();
@@ -22,10 +23,13 @@ if($_SESSION['is_logged_in']!=TRUE)
             ['password']?>">
             <input type = " text" name = "progdi" required placeholder="password"value="<?php echo $datauser
             ['password']?>">
+            <input type="submit" value="Simpan">
         </form>
         <?php
+    }
 
-    }
-    else{
-        echo"data tidak ditemukan";
-    }
+
+else
+{
+    echo "edit data gagal";
+}

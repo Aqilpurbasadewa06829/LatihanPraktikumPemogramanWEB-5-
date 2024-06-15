@@ -14,7 +14,7 @@
                 <input type="submit" value="Simpan">
             </form>
         <?php
-        $rs = $k->query("SELECT * FROM users");
+        $rs = $k->query("SELECT * FROM mhs");
         $data = $rs->fetch_all(MYSQLI_ASSOC);
         ?>
             <table border="1">
